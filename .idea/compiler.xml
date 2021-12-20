@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="goodscenter" />
+        <module name="searchcenter" />
+        <module name="ordercenter" />
+        <module name="buycarcenter" />
+        <module name="usercenter" />
+        <module name="gateway" />
+        <module name="register" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goods" target="1.8" />
+      <module name="goodservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="buycarcenter" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="goods" options="-parameters" />
+      <module name="goodscenter" options="-parameters" />
+      <module name="ordercenter" options="-parameters" />
+      <module name="register" options="-parameters" />
+      <module name="searchcenter" options="-parameters" />
+      <module name="usercenter" options="-parameters" />
+    </option>
+  </component>
+</project>

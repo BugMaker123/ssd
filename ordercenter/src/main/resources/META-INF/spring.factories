@@ -1,0 +1,5 @@
+#org.springframework.boot.SpringApplicationRunListener=\
+ #   cn.com.ice.ordercenter.config.ServiceUrlConfig
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    cn.com.ice.ordercenter.config.FeignConfig
