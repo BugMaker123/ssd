@@ -2,7 +2,9 @@ package cn.com.ice.ordercenter.clients;
 
 import cn.com.ice.ordercenter.common.ResultModel;
 import cn.com.ice.ordercenter.enity.OrderInfo;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderClientFallback implements OrderClient{
 
     @Override

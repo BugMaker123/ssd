@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 
 @RestController
-public class OrderController{
+public class OrderController {
 
     @GetMapping("order/getOrderInfoById")
-    public ResultModel<OrderInfo> getOrderInfoById(Long Id){
+    public ResultModel<OrderInfo> getOrderInfoById(Long Id) {
         OrderInfo orderInfo = new OrderInfo();
         orderInfo.setId(1000011L);
         orderInfo.setGoodInfo("北极体验卡");

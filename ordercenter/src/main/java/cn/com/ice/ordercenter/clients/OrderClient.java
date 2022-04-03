@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 )
 public interface OrderClient {
 
-    @GetMapping("order/getOrderInfoById")
+    @GetMapping(value = "order/getOrderInfoById")
     ResultModel<OrderInfo> getOrderInfoById(@RequestParam Long id);
 
     @PostMapping("order/addOrder")
