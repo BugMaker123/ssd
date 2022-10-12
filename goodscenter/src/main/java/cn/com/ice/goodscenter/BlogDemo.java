@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class BlogDemo {
 
-    private Jedis jedis = new Jedis("192.168.137.24");
+    private Jedis jedis = new Jedis("192.168.230.130");
 
     /**
      * 获取博客id

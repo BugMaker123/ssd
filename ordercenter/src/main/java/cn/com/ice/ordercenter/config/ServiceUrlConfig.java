@@ -19,7 +19,7 @@
 //
 //    private static String ORDERCENTER_SERVICE_URL_KEY = "orderCenterServiceUrl";
 //
-//    private static String ORDERCENTER_SERVICE_URL_DEFAULT = "http://192.168.137.24:9092/";
+//    private static String ORDERCENTER_SERVICE_URL_DEFAULT = "http://192.168.230.130:9092/";
 //
 //
 //    public ServiceUrlConfig(SpringApplication sa, String[] args) {
