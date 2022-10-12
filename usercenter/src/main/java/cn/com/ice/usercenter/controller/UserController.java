@@ -27,7 +27,7 @@ public class UserController {
     /**
      * 下单
      */
-    @PostMapping("buyGoods")
+    @GetMapping("buyGoods")
     public ResultModel buyGoods(OrderInfo orderInfo){
         ResultModel resultModel = orderClient.addOrderInfo(orderInfo);
         if (resultModel.getCode().equals(ResultCode.SUCCESS.getCode())){

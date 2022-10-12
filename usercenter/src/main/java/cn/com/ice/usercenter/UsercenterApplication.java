@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(value = "cn.com.ice.ordercenter")
 @EnableDiscoveryClient
 @SpringBootApplication
+
 public class UsercenterApplication {
 
     public static void main(String[] args) {
