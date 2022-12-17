@@ -1,7 +1,7 @@
 package cn.com.ice.ordercenter;
 
 import com.alibaba.nacos.api.config.annotation.NacosConfigurationProperties;
-import com.alibaba.nacos.api.config.annotation.NacosValue;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -13,18 +13,14 @@ import org.springframework.stereotype.Service;
 @EnableFeignClients(basePackages="cn.com.ice.ordercenter.*")
 @EnableDiscoveryClient
 @NacosConfigurationProperties(dataId = "order-center", autoRefreshed = true)
+@MapperScan("cn.com.ice.ordercenter.mapper")
 @SpringBootApplication
+//@EnableConfigurationProperties({DataSourceMasterProperties.class, DataSourceSlaveProperties.class})
 public class OrdercenterApplication {
-
-    @Value("${spring.application.name}")
-    private String applicationName;
-    @Value("${server.port}")
-    private int serverPort;
 
 
     public static void main(String[] args) {
         SpringApplication.run(OrdercenterApplication.class, args);
-
     }
 }
 

@@ -5,7 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/register/pom.xml" />
         <option value="$PROJECT_DIR$/usercenter/pom.xml" />
         <option value="$PROJECT_DIR$/searchcenter/pom.xml" />
         <option value="$PROJECT_DIR$/goodscenter/pom.xml" />

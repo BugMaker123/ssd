@@ -7,18 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="goodscenter" />
         <module name="searchcenter" />
         <module name="ordercenter" />
         <module name="buycarcenter" />
+        <module name="goodscenter" />
         <module name="usercenter" />
         <module name="gateway" />
-        <module name="register" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="goods" target="1.8" />
       <module name="goodservice" target="1.8" />
+      <module name="register" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

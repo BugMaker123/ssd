@@ -10,13 +10,13 @@ public class OrderInfo implements Serializable {
 
     private Long id;
 
-    private Integer transportStatus;
+    private String primaryBusinessId;
+
+    private String orderNo;
+
+    private Integer payStatus;
 
     private String goodInfo;
-
-    private String  evaluate;
-
-    private String store;
 
     private String createUserId;
 

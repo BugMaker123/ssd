@@ -15,7 +15,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>register</module>
         <module>usercenter</module>
         <module>ordercenter</module>
         <module>searchcenter</module>
